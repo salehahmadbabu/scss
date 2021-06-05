@@ -1,0 +1,27 @@
+.home {
+	height: 100%;
+	padding: 1rem;
+	padding-top: 40vh;
+	text-align: center;
+	overflow: hidden;
+	background: 
+	linear-gradient(
+		to right,
+		rgba($primary-color, .5),
+		rgba($primary-color, .3)
+	),
+	url('../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+	
+	&__name {
+		font-size: 4rem;
+		padding-bottom: 1rem;
+		margin: 1rem 0;
+		border-bottom: 2px solid set-text-color($primary-color);
+		&--last {
+			color: $secondary-color;
+			font-weight: 700;
+		}
+	}
+}

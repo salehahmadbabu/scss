@@ -1,0 +1,94 @@
+.projects {
+	padding-bottom: 5rem;
+	
+	&__bio-image {
+		padding: 2rem 3rem;
+		height: 30vh;
+		width: 100%;
+		background: linear-gradient(
+			to right,
+			rgba($primary-color, .3),
+			rgba($primary-color, .3)
+		),
+		url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
+		background-size: cover;
+		background-position: center;
+		display: grid;
+		justify-items: center;
+		align-items: end;
+		
+		.text-secondary{
+			align-self: end;
+			grid-row: 1;
+			font-weight: 600;
+			font-size: 2rem;
+		}
+	}
+	
+	&__items {
+		display: grid;
+		width: 60vw;
+		margin: 2rem auto 0;
+		grid-template-columns: 1fr;
+		grid-gap: 2rem;
+	}
+	&__item {
+		position: relative;
+		cursor: pointer;
+		overflow: hidden;
+		border-bottom: 5px solid $secondary-color;
+		
+		img {
+			width: 100%;
+			height: 100%;
+		}
+		
+		&:after{
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background: $secondary-color;
+			opacity: 0;
+			@include transition-ease;
+			z-index: 1;
+		}
+		
+		&:hover {
+			&:after {
+				top: 0;
+				opacity: .9;
+			}
+			
+			.projects__btn {
+				opacity: 1;
+			}
+		}
+	}
+	
+	&__btns {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 2;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-items: center;
+		
+		
+	}
+	&__btn {
+		opacity: 0;
+		color: #fff;
+		@include transition-ease;
+		
+		&:hover {
+			color: #000;
+		}
+	}
+}

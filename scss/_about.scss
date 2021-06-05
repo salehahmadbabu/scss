@@ -1,0 +1,60 @@
+.about {
+	
+	// display: grid;
+	// align-items: center;
+	// justify-items: center;
+	
+	
+	&__bio-image {
+		padding: 2rem 3rem;
+		height: 50vh;
+		width: 100%;
+		background: linear-gradient(
+			to right,
+			rgba($primary-color, .3),
+			rgba($primary-color, .3)
+		),
+		url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
+		background-size: cover;
+		background-position: center;
+		display: grid;
+		text-align: center;
+		grid-auto-rows:35vh 10vh;
+		
+		h2 {
+			align-self: end;
+			grid-row: 1;
+			font-weight: 600;
+		}
+		p {
+			align-self: center;
+			grid-row: 2;
+		}
+	}
+	
+	.jobs {
+		display: grid;
+		width: 60vw;
+		margin: 2rem auto 0;
+		padding-bottom: 5rem;
+		grid-template-columns: 1fr;
+		grid-gap: 2rem;
+		
+		&__item {
+			background: lighten($primary-color, 10%);
+			padding: 1rem;
+			border-radius: 3px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			border-bottom: 7px solid $secondary-color;
+			
+			h2, h3 {
+				margin: .5rem 0;
+			}
+			
+			h6{
+				margin: 0 0 .3rem;
+			}
+		}
+	}
+}

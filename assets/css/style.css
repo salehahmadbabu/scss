@@ -133,7 +133,7 @@ ul {
   padding-top: 40vh;
   text-align: center;
   overflow: hidden;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.3)), url("../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)), url("../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -152,7 +152,7 @@ ul {
   padding: 2rem 3rem;
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)), url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)), url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -198,7 +198,7 @@ ul {
   padding: 2rem 3rem;
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)), url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)), url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -272,7 +272,7 @@ ul {
   padding: 2rem 3rem;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.5)), url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)), url(../img/perry-kibler-bSfV2yIDGzA-unsplash.jpg);
   background-size: cover;
   background-position: center;
   display: grid;
